@@ -44,15 +44,14 @@ a:hover {
   }
 
 .sla {
-    border: 2px solid blue;
     display: grid;
     grid-template-columns: auto auto auto;
     margin-top: 5%;
+    width: 30%;
+    
 }
-
-a .cadastrar{
-    margin-top: 40px;
-    font-size: 50px;
+.cadastrar{
+    margin-top: 10px;
 }
  
 
