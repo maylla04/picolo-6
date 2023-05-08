@@ -1,0 +1,58 @@
+h1{
+    color: rgb(164, 142, 164);
+    text-align: center;
+}
+
+
+form{
+    margin-top: 5%;
+    border: 1px solid  rgb(164, 142, 164);
+    display:inline-block;
+    width: 40%;
+}
+input{
+    width: 80%;
+    height: 50px;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    margin-bottom: 10%;
+    font-size: 15px;
+}
+.botao{
+    border: none;
+    width: 15%;
+    background-color: rgb(164, 142, 164);
+    transition-duration: 0.4s;
+    
+}
+.botao:hover {
+    background-color: rgb(243, 223, 245);
+    color: rgb(164, 142, 164);
+  }
+a{
+    text-decoration: none;
+    color:black;
+    border: 2px solid rgb(164, 142, 164);
+    padding: 15px 30px;
+    
+}
+a:hover {
+    background-color: rgb(243, 223, 245);
+    color: rgb(164, 142, 164);
+    border: 2px solid rgb(243, 223, 245);
+  }
+
+.sla {
+    border: 2px solid blue;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 5%;
+}
+
+a .cadastrar{
+    margin-top: 40px;
+    font-size: 50px;
+}
+ 
+

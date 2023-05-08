@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/estilo/estilo.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <center><a class="cadastrar" href="/pessoas/criar">Cadastrar</a></center><br/>
+    <div  class="sla">
+    <% pessoas.forEach((pessoa) => { %>
+       <div class=""> <%= pessoa.nome %> </div>
+    <div class=""> <%= pessoa.sobrenome %> </div>
+<div class="">  <%= pessoa.idade %> </div>
+    <% }) %>
+    </div>
+</body>
+</html>
