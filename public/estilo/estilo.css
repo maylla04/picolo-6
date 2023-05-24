@@ -9,6 +9,7 @@ form{
     border: 1px solid  rgb(164, 142, 164);
     display:inline-block;
     width: 40%;
+    
 }
 input{
     width: 80%;
@@ -24,8 +25,21 @@ input{
     width: 15%;
     background-color: rgb(164, 142, 164);
     transition-duration: 0.4s;
-    
 }
+.criar{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.botoes{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
 .botao:hover {
     background-color: rgb(243, 223, 245);
     color: rgb(164, 142, 164);
@@ -46,12 +60,52 @@ a:hover {
 .sla {
     display: grid;
     grid-template-columns: auto auto auto auto;
+    margin-top: 2px;
+    width: 30%;
+    gap: 20px;
+}
+.cabeca{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     margin-top: 5%;
     width: 30%;
-    gap: 50px;
+    gap: 40px;
+    margin-left: 5px;
+}
+.pessoa{
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+align-items: center;
 }
 .cadastrar{
     margin-top: 10px;
+    
+}
+.nome{
+    border: 1px solid rgb(164, 142, 164);
+    padding: 15px 30px;
+}
+.nome:hover{
+    background-color: rgb(164, 142, 164);
+}
+.titulos{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 5%;
+    width: 30%;
+    gap: 20px;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.nome:hover{
+    cursor: pointer;
 }
  
 

@@ -12,13 +12,15 @@
     <center><form method="post" action="/pessoas/criar">
         <h1>Formulário</h1>
         
-        <input type="text" name="nome" placeholder="Digite seu nome" required /><br/>
+        <input type="text" name="nome" placeholder="Digite seu nome" required />
         
-        <input type="text" name="sobrenome" placeholder="Digite seu sobrenome" required/><br/>
+        <input type="text" name="sobrenome" placeholder="Digite seu sobrenome" required/>
        
-        <input type="number" name="idade" placeholder="Digite sua idade" required/><br/>
-          <input class="botao" type="submit" value="Enviar"/>
+        <input type="number" name="idade" placeholder="Digite sua idade" required/>
+          <div className="botoes">
+        <input class="botao" type="submit" value="Enviar"/>
           <a href="/pessoas">Cancelar</a>
+        </div>
      </form></center>
 </body>
 </html>

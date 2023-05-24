@@ -10,23 +10,37 @@
     <script src='main.js'></script>
 </head>
 
-<body><br /><br />
-    <center><a class="cadastrar" href="/pessoas/criar">Cadastrar</a></center><br />
-    <center>
+<body>
+    <div class="cabecalho">
+        <div class="cabeca">
+            <h1>Nome</h1>
+            <h1>Sobrenome</h1>
+            <h1>Idade</h1>
+            <div class="criar">
+                <a class="cadastrar" href="/pessoas/criar">Cadastrar</a>
+            </div>
+        </div>
+    
+</div>
+   <div class="pessoa">
+    
         <div class="sla">
             <% pessoas.forEach((pessoa)=> { %>
-                <div class="">
+                <div class="nome">
                     <%= pessoa.nome %>
                 </div>
-                <div class="">
+                <div class="nome">
                     <%= pessoa.sobrenome %>
                 </div>
-                <div class="">
+                <div class="nome">
                     <%= pessoa.idade %>
                 </div> <a class="" href="/pessoas/deletar?id=<%= pessoa.id%>">Delete</a>
                 <% }) %>
-    </center>
+    
+
     </div>
+</div>
+    
 </body>
 
 </html>
